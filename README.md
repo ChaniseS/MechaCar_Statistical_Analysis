@@ -28,3 +28,33 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 #### Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 * While the overall variance is under 100 psi and meets specifications, there is an issue with Lot 3. Looking at the 'Lot Summary', we can see that the variance for Lot 3 is well over the acceptable threshold, at 170.28.
 
+## T-Tests on Suspension Coils
+##### Suspension Coils Cumulative T-test
+<img width="407" alt="Screen Shot 2022-04-03 at 6 07 53 PM" src="https://user-images.githubusercontent.com/95304025/161450868-44d49cda-bbf9-4758-8758-3eb20960e242.png">
+
+#### Lot 1:
+<img width="566" alt="Screen Shot 2022-04-03 at 6 08 19 PM" src="https://user-images.githubusercontent.com/95304025/161451111-60aa2b02-c226-4505-9f66-0fc4f64b182b.png">
+
+#### Lot 2:
+<img width="566" alt="Screen Shot 2022-04-03 at 6 08 27 PM" src="https://user-images.githubusercontent.com/95304025/161451135-92c38f2a-6bcc-40e7-b762-33c27c65f494.png">
+
+#### Lot 3:
+<img width="566" alt="Screen Shot 2022-04-03 at 6 08 36 PM" src="https://user-images.githubusercontent.com/95304025/161451144-da2dbc68-8090-4e96-aa00-e668d3208377.png">
+
+## Study Design: MechaCar vs Competition
+The objective is to create/design a Mechcar Vehicle that will essentially perfomr better than its competititors. 
+In present day, the ridesharing world is highly competitive and needed.
+
+#### Metrics to test
+I personally would test the ride occupancy. How many riders can fit in one vehicle. 
+That would make a huge difference when it compares to competitors. 
+
+#### Null or Alternative hypothesis
+Ha: The true mean of MechaCar's mpg is greater than the mean of the competitor's mpg.
+HO: There is no statistical difference between the competition's mpg dataset and MechaCar's mpg dataset.
+
+#### Statistical test used to test the hypothesis
+I would suggest using the two-sample t-tests. We already were provided analysis using the t-test and it was shown the next steps needed.
+
+#### What data is needed to run the statistical test?
+We would need to gather cubic space data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.
